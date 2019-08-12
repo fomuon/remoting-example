@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'remoting-example'
+
+include 'example-remoting-common'
+include 'example-remoting-consumer'
+include 'example-remoting-provider'
+
